@@ -1,2 +1,69 @@
 # Secure-Real-Time-Messaging-System
-A python based real-time messaging system for secure communication over a Local Area Network.
+A python based real-time messaging system for secure communication over a Local Area Network 
+# Secure Real-Time Messaging System
+
+## Project Overview
+
+This project is a Python-based secure messaging application that enables real-time communication between users over a Local Area Network (LAN). The sender can send messages instantly, and the receiver receives them without delay.
+
+## Features
+
+* Real-time message transmission
+* Instant message delivery
+* Client-Server architecture
+* Communication over LAN
+* Easy-to-use interface
+* Lightweight and efficient
+
+## Technologies Used
+
+* Python
+* Socket Programming
+* TCP/IP Protocol
+* Networking Concepts
+
+## Working
+
+1. The server starts and waits for incoming connections.
+2. The client connects to the server using the server IP address.
+3. The sender enters a message.
+4. The message is transmitted through the network.
+5. The receiver instantly receives and displays the message.
+
+## Project Structure
+
+```
+project/
+│
+├── server.py
+├── client.py
+├── README.md
+└── requirements.txt
+```
+
+## How to Run
+
+### Start the Server
+
+```bash
+python server.py
+```
+
+### Start the Client
+
+```bash
+python client.py
+```
+
+## Future Enhancements
+
+* End-to-End Encryption
+* User Authentication
+* File Sharing
+* Group Chat
+* Message Logging
+* GUI Interface
+
+## Author
+
+Harpreet Kaur
