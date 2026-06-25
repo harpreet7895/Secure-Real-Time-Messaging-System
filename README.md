@@ -60,7 +60,7 @@ Laptop A (Sender)  ---> "Hello everyone"
                            |
         -------------------------------------
         |                                   |
-Laptop B (rec.py running)              Laptop C (rec.py running) 
+   Laptop B (rec.py running)      |          Laptop C (rec.py running) 
 
 Output on both : Hello everyone
 
