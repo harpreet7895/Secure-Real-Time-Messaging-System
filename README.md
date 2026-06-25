@@ -58,6 +58,7 @@ python rec.py
 
 Laptop A (Sender)  ---> "Hello everyone"
                            |
+       
         -------------------------------------
       
       |                                   |
