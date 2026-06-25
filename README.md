@@ -1,6 +1,5 @@
 # Secure-Real-Time-Messaging-System
-A python based real-time messaging system for secure communication over a Local Area Network 
-# Secure Real-Time Messaging System
+python based real-time messaging system for secure communication over a Local Area Network 
 
 ## Project Overview
 
@@ -35,8 +34,8 @@ This project is a Python-based secure messaging application that enables real-ti
 ```
 project/
 │
-├── server.py
-├── client.py
+├── send.py
+├── rec.py
 ├── README.md
 └── requirements.txt
 ```
@@ -46,13 +45,13 @@ project/
 ### Start the Server
 
 ```bash
-python server.py
+python send.py
 ```
 
 ### Start the Client
 
 ```bash
-python client.py
+python rec.py
 ```
 
 ## Future Enhancements
