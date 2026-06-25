@@ -1,9 +1,9 @@
 import socket
 
-# UDP Socket create karein
+# create UDP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-# Sabhi network interfaces ke port 8080 par bind karein
+# Bind to port 8080 on all network interfaces
 sock.bind(("", 8080))
 
 print("Laptop is listening for broadcast messages on port 8080...")
