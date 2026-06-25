@@ -56,15 +56,13 @@ python rec.py
 ```
 ## Example 
 
-Laptop A (Sender)
-   |---- "Hello Everyone"
-   |
------------------------------------
-|                                 |
-Laptop B (rec.py running)     | Laptop C (rec.py running)
+Laptop A (Sender)  ---> "Hello everyone"
+                           |
+        -------------------------------------
+        |                                   |
+Laptop B (rec.py running)              Laptop C (rec.py running) 
 
-Output on both:
-Hello Everyone
+Output on both : Hello everyone
 
 ## Future Enhancements
 
