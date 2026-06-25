@@ -1,14 +1,14 @@
 import socket
 
-# UDP Socket create karein
+# Create UDP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-# Socket ko broadcast permission dein
+# Enable broadcast mode on the socket
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 
 message = input("Enter your Message :- ")
 
-# 255.255.255.255 broadcast address hai, jo network ke har device ko message bhejega
+# 255.255.255.255 is a broadcast address that sends the message to every device on the network.
 sock.sendto(message.encode('utf-8'), ('255.255.255.255', 8080))
 
 print("Broadcast message sent successfully!")
