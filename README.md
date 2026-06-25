@@ -1,4 +1,4 @@
-# Secure-Real-Time-Messaging-System
+# Secure Real Time Messaging System
 python based real-time messaging system for secure communication over a Local Area Network 
 
 ## Project Overview
@@ -56,12 +56,11 @@ python rec.py
 ## Example 
 
 Laptop A (Sender)
-   |
    |---- "Hello Everyone"
    |
 -----------------------------------
 |                                 |
-Laptop B (rec.py running)    Laptop C (rec.py running)
+Laptop B (rec.py running)     | Laptop C (rec.py running)
 
 Output on both:
 Hello Everyone
