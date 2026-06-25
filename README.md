@@ -28,6 +28,7 @@ This project is a Python-based secure messaging application that enables real-ti
 3. The sender enters a message.
 4. The message is transmitted through the network.
 5. The receiver instantly receives and displays the message.
+6. Both devices must be connected to the same Wi-Fi/LAN network. 
 
 ## Project Structure
 
