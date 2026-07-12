@@ -30,17 +30,6 @@ This project is a Python-based secure messaging application that enables real-ti
 5. The receiver instantly receives and displays the message.
 6. Both devices must be connected to the same Wi-Fi/LAN network. 
 
-## Project Structure
-
-```
-project/
-│
-├── send.py
-├── rec.py
-├── README.md
-└── requirements.txt
-```
-
 ## How to Run
 
 ### Start the Server
